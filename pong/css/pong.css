@@ -3,7 +3,8 @@
     width: 400px;
     height: 200px;
 }
-#playground{
+
+#playground {
     background: url(../images/playground.png);
     background-size: contain;
     width: 100%;
@@ -14,6 +15,7 @@
     overflow: hidden;
     cursor: pointer;
 }
+
 #ball {
     background: #fbb;
     position: absolute;
@@ -22,4 +24,22 @@
     left: 150px;
     top: 100px;
     border-radius: 10px;
+}
+
+.paddle {
+    background-size: contain;
+    top: 70px;
+    position: absolute;
+    width: 30px;
+    height: 70px;
+}
+
+#paddleA {
+    left: 50px;
+    background-image: url(../images/football-player-left.png);
+}
+
+#paddleB {
+    right: 50px;
+    background-image: url(../images/football-player.png);
 }
